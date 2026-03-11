@@ -34,23 +34,23 @@ FONTE USADA: [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html
 
 **[Lembrando que Os dados foram disponibilizados pela Motivate International Inc[MIT]**. [sobre esta licença](https://github.com/Dansouza-web/Caso-de-Estudo-De-Uma-Empresa-de-Biclietas-do-Curso-De-An-lise-de-Dados-do-Google/blob/main/Licen%C3%A7a)
 Cada registro inclui informações como:
-**ID da viagem
+**ID da viagem**
 
-Tipo de bicicleta
+**Tipo de bicicleta**
 
-Data e horário de início da viagem
+**Data e horário de início da viagem
+**
+**Data e horário de término da viagem**
 
-Data e horário de término da viagem
+**Estação de início**
 
-Estação de início
+**Estação de destino**
 
-Estação de destino
+**TiPo de usuário (membro ou casual)**
 
-TiPo de usuário (membro ou casual)
+**Estrutura dos Dados**
 
-Estrutura dos Dados
-
-Os dados estão armazenados em arquivos no formato CSV.**
+**Os dados estão armazenados em arquivos no formato CSV.**
 
 **Ferramentas Usadas🛠️:**
 Limpeza e Processamento de Dados : **Google Colab**
