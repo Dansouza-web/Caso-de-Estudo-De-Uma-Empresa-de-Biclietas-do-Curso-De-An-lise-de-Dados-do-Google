@@ -15,7 +15,7 @@ O diretor de marketing da empresa acredita que o sucesso futuro da empresa depen
 
 ETAPAS:
 
-#**1-❓ASK/PERGUNTE**:**[A parte de perguntas é essencial para extrair os insights desejados pelos altos cargos da empresa]**
+**1-❓ASK/PERGUNTE**:**[A parte de perguntas é essencial para extrair os insights desejados pelos altos cargos da empresa]**
 
 Tarefa de Negócio
 
@@ -30,11 +30,12 @@ Questões para orientar o futuro programa de marketing:
 
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 
-#**2-🔄️PREPARAR**:**[Coleta da Base de Dados]**
+**2-🔄️PREPARAR**:**[Coleta da Base de Dados]**
 
 FONTE USADA: [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
-**[Lembrando que Os dados foram disponibilizados pela Motivate International Inc[MIT]**. [sobre esta licença](https://github.com/Dansouza-web/Caso-de-Estudo-De-Uma-Empresa-de-Biclietas-do-Curso-De-An-lise-de-Dados-do-Google/blob/main/Licen%C3%A7a)
+**[Lembrando que Os dados foram disponibilizados pela Motivate International Inc[MIT]**. [sobre esta licença](https://github.com/Dansouza-web/Caso-de-Estudo-De-Uma-Empresa-de-Biclietas-do-Curso-De-An-lise-de-Dados-do-Google/blob/main/Licen%C3%A7a) 
+
 Cada registro inclui informações como:
 **ID da viagem**
 
@@ -58,8 +59,8 @@ Cada registro inclui informações como:
 Limpeza e Processamento de Dados : **Google Colab**
 Visualização de Dados : **Google Colab**
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
-
-O Projeto No Geral Está divido em 3 passos antes de analisar e extrair insights:
+**3-PLANEJAMENTO DO PROJETO**
+O Projeto No Geral Está divido em 4 passos antes de analisar e extrair insights:
 
 **1.[PROCESSAR OS DADOS](Processo.ipynb)**
 
@@ -69,7 +70,7 @@ O Projeto No Geral Está divido em 3 passos antes de analisar e extrair insights
 
 **4.ANÁLISE DE DADOS(ANALYSIS)**
 
-#**3-💻PROCESSO**: 
+**💻PROCESSAR**: 
 Antes da minha análise, precisei realizar um processo de limpeza e preparação dos dados para garantir o uso correto.
 #Etapas de Limpeza de Dados No Data Set:
 **Remoção de registros com valores ausentes ou inconsistentes**
@@ -83,3 +84,4 @@ Antes da minha análise, precisei realizar um processo de limpeza e preparação
 **Remoção de viagens com duração negativa ou irreal**
 
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+**4-EXPLORANDO OS DADOS:**
