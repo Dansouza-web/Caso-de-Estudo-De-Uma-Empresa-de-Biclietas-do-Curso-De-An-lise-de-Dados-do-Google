@@ -41,8 +41,8 @@ Cada registro inclui informações como:
 
 **Tipo de bicicleta**
 
-**Data e horário de início da viagem
-**
+**Data e horário de início da viagem**
+
 **Data e horário de término da viagem**
 
 **Estação de início**
@@ -84,4 +84,5 @@ Antes da minha análise, precisei realizar um processo de limpeza e preparação
 **Remoção de viagens com duração negativa ou irreal**
 
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
 **4-EXPLORANDO OS DADOS:**
