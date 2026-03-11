@@ -57,7 +57,7 @@ Limpeza e Processamento de Dados : **Google Colab**
 Visualização de Dados : **Google Colab**
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 O Projeto No Geral Está divido em 3 passos antes de analisar e extrair insights:
-1.PROCESSAR OS DADOS
+1.[PROCESSAR OS DADOS](Processo.ipynb)
 2.EXPLORANDO OS DADOS
 3.LIMPEZA DE DADOS
 4.ANÁLISE DE DADOS
