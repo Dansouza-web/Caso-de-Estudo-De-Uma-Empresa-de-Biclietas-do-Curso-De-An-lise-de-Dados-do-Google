@@ -57,10 +57,13 @@ Limpeza e Processamento de Dados : **Google Colab**
 Visualização de Dados : **Google Colab**
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 O Projeto No Geral Está divido em 3 passos antes de analisar e extrair insights:
-1.[PROCESSAR OS DADOS](Processo.ipynb)
-2.EXPLORANDO OS DADOS
-3.LIMPEZA DE DADOS
-4.ANÁLISE DE DADOS
+**1.[PROCESSAR OS DADOS](Processo.ipynb)**
+
+**2.EXPLORANDO OS DADOS**
+
+**3.LIMPEZA DE DADOS**
+
+**4.ANÁLISE DE DADOS**
 
 #**3-💻PROCESSO**: 
 Antes da minha análise, precisei realizar um processo de limpeza e preparação dos dados para garantir o uso correto.
@@ -74,3 +77,4 @@ Antes da minha análise, precisei realizar um processo de limpeza e preparação
 **Criação de uma coluna chamada dia_da_semana para identificar padrões de uso**
 
 **Remoção de viagens com duração negativa ou irreal**
+
