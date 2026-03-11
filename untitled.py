@@ -1,20 +1,4 @@
 {
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "authorship_tag": "ABX9TyN6uklP9xzZma/dyuJruX5r",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
   "cells": [
     {
       "cell_type": "markdown",
@@ -28,19 +12,15 @@
     },
     {
       "cell_type": "code",
-      "source": [
-        "from google.colab import files\n",
-        "uploaded = files.upload()"
-      ],
+      "execution_count": 53,
       "metadata": {
-        "id": "I5GqjG_dNXZz",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 73
         },
-        "outputId": "044b3284-a9be-4bb1-b6ad-72694d7c1221"
+        "id": "I5GqjG_dNXZz",
+        "outputId": "0178bbc1-43cd-4fd2-a6ad-85ddfe64edb3"
       },
-      "execution_count": null,
       "outputs": [
         {
           "output_type": "display_data",
@@ -50,9 +30,9 @@
             ],
             "text/html": [
               "\n",
-              "     <input type=\"file\" id=\"files-20bb9097-7f12-486e-aca3-9cfdf06b6690\" name=\"files[]\" multiple disabled\n",
+              "     <input type=\"file\" id=\"files-64fb8cb7-dab7-4761-b6f9-b605f2610327\" name=\"files[]\" multiple disabled\n",
               "        style=\"border:none\" />\n",
-              "     <output id=\"result-20bb9097-7f12-486e-aca3-9cfdf06b6690\">\n",
+              "     <output id=\"result-64fb8cb7-dab7-4761-b6f9-b605f2610327\">\n",
               "      Upload widget is only available when the cell has been executed in the\n",
               "      current browser session. Please rerun this cell to enable.\n",
               "      </output>\n",
@@ -240,27 +220,26 @@
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Saving 202602-divvy-tripdata.csv to 202602-divvy-tripdata.csv\n"
+            "Saving 202602-divvy-tripdata.csv to 202602-divvy-tripdata (1).csv\n"
           ]
         }
+      ],
+      "source": [
+        "from google.colab import files\n",
+        "uploaded = files.upload()"
       ]
     },
     {
       "cell_type": "code",
-      "source": [
-        "import pandas as pd\n",
-        "df = pd.read_csv('202602-divvy-tripdata.csv')\n",
-        "df.head()"
-      ],
+      "execution_count": 54,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 206
         },
         "id": "mQVD1R7BrwEm",
-        "outputId": "a0b07a41-294b-4b77-8d4d-c56aa2a54a12"
+        "outputId": "a0c2473c-3995-4664-999b-1ff130585371"
       },
-      "execution_count": null,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -296,7 +275,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-a9c69aa7-0048-45e1-a6a6-88421cce0e50\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-2e6e10ce-008a-4e58-a7cf-f2ea70b0734d\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -417,7 +396,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-a9c69aa7-0048-45e1-a6a6-88421cce0e50')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-2e6e10ce-008a-4e58-a7cf-f2ea70b0734d')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -469,12 +448,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-a9c69aa7-0048-45e1-a6a6-88421cce0e50 button.colab-df-convert');\n",
+              "        document.querySelector('#df-2e6e10ce-008a-4e58-a7cf-f2ea70b0734d button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-a9c69aa7-0048-45e1-a6a6-88421cce0e50');\n",
+              "        const element = document.querySelector('#df-2e6e10ce-008a-4e58-a7cf-f2ea70b0734d');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -503,12 +482,22 @@
             }
           },
           "metadata": {},
-          "execution_count": 26
+          "execution_count": 54
         }
+      ],
+      "source": [
+        "import pandas as pd\n",
+        "df = pd.read_csv('202602-divvy-tripdata.csv')\n",
+        "df.head()"
       ]
     },
     {
       "cell_type": "code",
+      "execution_count": 55,
+      "metadata": {
+        "id": "krhpW6hT6Jq5"
+      },
+      "outputs": [],
       "source": [
         "#Aqui eu garanti que as colunas e os conjuntos de dados estivessem corretos e adequeados para o uso e a etapa de análise\n",
         "df['started_at'] = pd.to_datetime(df['started_at'])\n",
@@ -518,28 +507,19 @@
         "#criando uma coluna para o dia da semana em que ocorreu a viagem\n",
         "df['dia_da_semana']=df['started_at'].dt.day_name()\n",
         "df = df[df['duração'] > pd.Timedelta(minutes=1)]"
-      ],
-      "metadata": {
-        "id": "krhpW6hT6Jq5"
-      },
-      "execution_count": 45,
-      "outputs": []
+      ]
     },
     {
       "cell_type": "code",
-      "source": [
-        "#verificando se há valores nulos e duplicados\n",
-        "df.isnull()\n"
-      ],
+      "execution_count": 56,
       "metadata": {
-        "id": "r6fLLHkJ6Itb",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 424
         },
-        "outputId": "0e8ba37b-3aee-4678-c96b-2a5669df5982"
+        "id": "r6fLLHkJ6Itb",
+        "outputId": "dba41e8d-a820-45b8-c7a5-f774b900f885"
       },
-      "execution_count": 44,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -588,7 +568,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-96bd76ed-537c-492a-ad27-0d429c028824\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-1885ba9f-532c-4513-9332-d5a22b20d897\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -830,7 +810,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-96bd76ed-537c-492a-ad27-0d429c028824')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-1885ba9f-532c-4513-9332-d5a22b20d897')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -882,12 +862,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-96bd76ed-537c-492a-ad27-0d429c028824 button.colab-df-convert');\n",
+              "        document.querySelector('#df-1885ba9f-532c-4513-9332-d5a22b20d897 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-96bd76ed-537c-492a-ad27-0d429c028824');\n",
+              "        const element = document.querySelector('#df-1885ba9f-532c-4513-9332-d5a22b20d897');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -915,24 +895,25 @@
             }
           },
           "metadata": {},
-          "execution_count": 44
+          "execution_count": 56
         }
+      ],
+      "source": [
+        "#verificando se há valores nulos e duplicados\n",
+        "df.isnull()\n"
       ]
     },
     {
       "cell_type": "code",
-      "source": [
-        "df.duplicated()"
-      ],
+      "execution_count": 57,
       "metadata": {
+        "id": "gypR9yCk9a4D",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 458
         },
-        "id": "gypR9yCk9a4D",
-        "outputId": "0417f729-34bb-4444-da5a-ef6d3e4fffd3"
+        "outputId": "ed2472c2-4aba-42ac-fbb6-a543da73b076"
       },
-      "execution_count": 43,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1025,9 +1006,28 @@
             ]
           },
           "metadata": {},
-          "execution_count": 43
+          "execution_count": 57
         }
+      ],
+      "source": [
+        "df.duplicated()"
       ]
     }
-  ]
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN6uklP9xzZma/dyuJruX5r",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
 }
