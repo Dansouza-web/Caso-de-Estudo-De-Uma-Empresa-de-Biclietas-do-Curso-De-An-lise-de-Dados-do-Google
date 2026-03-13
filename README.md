@@ -65,7 +65,7 @@ O Projeto No Geral Está divido em 4 passos antes de analisar e extrair insights
 
 **1.[PROCESSAR OS DADOS](Processo.ipynb)**
 
-**2.EXPLORANDO OS DADOS(EDA)**
+**2.[EXPLORANDO OS DADOS |EDA|](https://github.com/Dansouza-web/Caso-de-Estudo-De-Uma-Empresa-de-Biclietas-do-Curso-De-An-lise-de-Dados-do-Google/blob/main/Explora%C3%A7%C3%A3o.ipynb)**
 
 **3.LIMPEZA DE DADOS(CLEANING)**
 
