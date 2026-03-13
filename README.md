@@ -60,6 +60,7 @@ Cada registro inclui informações como:
 Limpeza e Processamento de Dados : **Google Colab**
 Visualização de Dados : **Google Colab**
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
 **3-PLANEJAMENTO DO PROJETO**
 O Projeto No Geral Está divido em 4 passos antes de analisar e extrair insights:
 
