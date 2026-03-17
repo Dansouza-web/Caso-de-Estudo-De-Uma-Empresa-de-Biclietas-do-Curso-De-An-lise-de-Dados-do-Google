@@ -72,19 +72,12 @@ O Projeto No Geral Está divido em 4 passos antes de analisar e extrair insights
 
 **4.ANÁLISE DE DADOS(ANALYSIS)**
 
-**💻PROCESSAR**: 
-Antes da minha análise, precisei realizar um processo de limpeza e preparação dos dados para garantir o uso correto.
-#Etapas de Limpeza de Dados No Data Set:
-**Remoção de registros com valores ausentes ou inconsistentes**
-
-**Conversão das colunas de data para o formato de data e hora**
-
-**Criação de uma nova coluna chamada duração_da_viagem**
-
-**Criação de uma coluna chamada dia_da_semana para identificar padrões de uso**
-
-**Remoção de viagens com duração negativa ou irreal**
-
+#(Processando os dados)[Processo.ipynb]:
+vejo que a base de dados é de ***Março De 2026*** e há 197428 linhas e 15 colunas
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+#(Explorando os Dados)[https://github.com/Dansouza-web/Caso-de-Estudo-De-Uma-Empresa-de-Biclietas-do-Curso-De-An-lise-de-Dados-do-Google/blob/main/Explora%C3%A7%C3%A3o.ipynb]:
+Eu Importei A base de Dados e verifiquei se havia **dados nulos, inconsistências, e erros** dentro da base de dados
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+#(Limpando os Dados)
 
-**4-EXPLORANDO OS DADOS:**
+
