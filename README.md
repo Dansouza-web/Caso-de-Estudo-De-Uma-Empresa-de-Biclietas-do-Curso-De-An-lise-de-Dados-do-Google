@@ -76,6 +76,7 @@ O Projeto No Geral Está divido em 4 passos antes de analisar e extrair insights
 
 vejo que a base de dados é de *Março De 2026* e há 197428 linhas e 15 colunas
 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
 2.##[Explorando os Dados](Exploração.ipynb):
 
 Eu Importei A base de Dados e verifiquei se havia **dados nulos, inconsistências, e erros** dentro da base de dados
