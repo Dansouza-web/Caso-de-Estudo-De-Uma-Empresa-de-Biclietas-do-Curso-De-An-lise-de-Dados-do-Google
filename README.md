@@ -34,7 +34,9 @@ Questões para orientar o futuro programa de marketing:
 
 FONTE USADA: [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
-**[Lembrando que Os dados foram disponibilizados pela Motivate International Inc[MIT]**. [sobre esta licença](https://github.com/Dansouza-web/Caso-de-Estudo-De-Uma-Empresa-de-Biclietas-do-Curso-De-An-lise-de-Dados-do-Google/blob/main/Licen%C3%A7a) 
+**[Lembrando que Os dados foram disponibilizados pela Motivate International Inc[MIT]**. 
+
+[sobre esta licença](https://github.com/Dansouza-web/Caso-de-Estudo-De-Uma-Empresa-de-Biclietas-do-Curso-De-An-lise-de-Dados-do-Google/blob/main/Licen%C3%A7a) 
 
 Cada registro inclui informações como:
 
@@ -70,7 +72,7 @@ O Projeto No Geral Está divido em 4 passos antes de analisar e extrair insights
 
 **3.[LIMPEZA DE DADOS|CLEANING|](Limpeza.ipynb)**
 
-**4.ANÁLISE DE DADOS(ANALYSIS)**
+**4.[ANÁLISE DE DADOS(ANALYSIS)](Processo.ipynb)**
 
 #[Processando os dados](Processo.ipynb):
 
@@ -137,3 +139,35 @@ Podemos ver que quarta feira é o dia que mais ciclistas viajam.
 
 #*5. COMPARTILHAR*
 
+[Veja a visualização](Análise.ipynb)
+
+
+
+#*6. Ação*
+Recomendações
+
+Com base nos resultados da análise, é possível propor algumas estratégias de marketing para converter ciclistas ocasionais em membros da Cyclistic:
+
+Personalização de planos de assinatura:
+Oferecer diferentes opções de planos, como anual, mensal e diário (por exemplo: US$ 365/ano, US$ 45/mês, US$ 3/dia), permitindo que os usuários escolham de acordo com suas necessidades. Planos de curto prazo podem atrair usuários que não desejam um compromisso anual.
+
+Descontos para grupos:
+Criar planos com preços reduzidos para amigos, estudantes e famílias pode incentivar adesões coletivas, além de estimular o uso em grupo e fortalecer o engajamento social.
+
+Programa de fidelidade:
+Implementar um sistema de pontos em que os usuários acumulem recompensas a cada viagem. Esses pontos podem ser trocados por descontos ou benefícios, incentivando o uso frequente e aumentando a retenção de clientes.
+
+Eventos exclusivos para membros:
+Promover eventos especiais, como passeios em grupo, desafios urbanos ou atividades temáticas, pode aumentar o engajamento dos membros e atrair ciclistas ocasionais interessados nessas experiências.
+
+Campanhas sazonais:
+Desenvolver campanhas em períodos específicos do ano, oferecendo promoções por tempo limitado, benefícios durante a semana ou aumento na duração das viagens, tornando o serviço mais atrativo em diferentes estações.
+
+Engajamento nas redes sociais:
+Utilizar plataformas digitais para interagir com o público, compartilhando histórias, depoimentos e conteúdos gerados por usuários. Mostrar experiências positivas e momentos marcantes pode incentivar ciclistas ocasionais a se tornarem membros.
+
+#*🔮 Conclusão*
+
+De forma geral, esta análise apresenta insights relevantes sobre o comportamento e as preferências dos membros e dos ciclistas ocasionais da Cyclistic.
+
+Ao alinhar suas estratégias com base nessas diferenças, a empresa pode aumentar as chances de converter usuários ocasionais em membros, contribuindo para o crescimento e a sustentabilidade do negócio.
